@@ -13,6 +13,7 @@ import android.view.View
 import com.github.teracy.roompagingsample.R
 import com.github.teracy.roompagingsample.data.paging.DietMember
 import com.github.teracy.roompagingsample.databinding.ActivityMainBinding
+import com.github.teracy.roompagingsample.ui.speech.SpeechActivity
 import dagger.android.support.DaggerAppCompatActivity
 import timber.log.Timber
 import javax.inject.Inject
@@ -35,7 +36,11 @@ class MainActivity : DaggerAppCompatActivity() {
         // region 議員一覧
         val adapter = DietMemberAdapter(application, object : OnDietMemberClickListener {
             override fun onClick(member: DietMember?) {
-                // TODO: 議員の直近国会の発言検索実装
+                if (member == null) {
+                    return
+                }
+                val intent = SpeechActivity.createIntent(this@MainActivity, member.name)
+                startActivity(intent)
             }
         })
         binding.recycler.layoutManager = LinearLayoutManager(this)

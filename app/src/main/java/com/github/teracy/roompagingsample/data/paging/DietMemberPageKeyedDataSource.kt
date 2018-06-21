@@ -5,9 +5,6 @@ import android.arch.paging.PageKeyedDataSource
 import com.github.teracy.roompagingsample.data.db.AppDatabase
 import com.github.teracy.roompagingsample.data.db.entity.DietMemberEntity
 
-/**
- * Roomの議員Entity→表示用議員情報
- */
 class DietMemberPageKeyedDataSource(private val database: AppDatabase, private val limit: Int, private val name: String?) : PageKeyedDataSource<Int, DietMember>() {
     val loading: MutableLiveData<Boolean> = MutableLiveData()
 
@@ -33,15 +30,15 @@ class DietMemberPageKeyedDataSource(private val database: AppDatabase, private v
             database.dietMemberDao().getDietMembersLimitOffset(limit, offset)
         } else {
             database.dietMemberDao().getDietMembersByNameLimitOffset("$name%", limit, offset)
-        }.map { it.convertToDietMember() }
+        }.map { it.convert() }
         callback(list, offset + limit)
         loading.postValue(false)
     }
 
     /**
-     * 変換
+     * Roomの議員Entity→表示用議員情報に変換
      */
-    private fun DietMemberEntity.convertToDietMember(): DietMember {
+    private fun DietMemberEntity.convert(): DietMember {
         val election =
                 when (house) {
                     REPRESENTATIVES -> {
