@@ -1,0 +1,1451 @@
+{
+  "updated": "2018-6-19T13:00:00+09:00",
+  "members": [
+    {
+      "name": "アントニオ猪木",
+      "kana": "あんとにおいのき",
+      "party": "無ク",
+      "block": "比例"
+    },
+    {
+      "name": "足立信也",
+      "kana": "あだちしんや",
+      "party": "民進",
+      "constituency": "大分"
+    },
+    {
+      "name": "足立敏之",
+      "kana": "あだちとしゆき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "阿達雅志",
+      "kana": "あだちまさし",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "相原久美子",
+      "kana": "あいはらくみこ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "愛知治郎",
+      "kana": "あいちじろう",
+      "party": "自民",
+      "constituency": "宮城"
+    },
+    {
+      "name": "青木愛",
+      "kana": "あおきあい",
+      "party": "希望",
+      "block": "比例"
+    },
+    {
+      "name": "青木一彦",
+      "kana": "あおきかずひこ",
+      "party": "自民",
+      "constituency": "鳥取・島根"
+    },
+    {
+      "name": "青山繁晴",
+      "kana": "あおやましげはる",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "赤池誠章",
+      "kana": "あかいけまさあき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "秋野公造",
+      "kana": "あきのこうぞう",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "浅田均",
+      "kana": "あさだひとし",
+      "party": "維新",
+      "constituency": "大阪"
+    },
+    {
+      "name": "朝日健太郎",
+      "kana": "あさひけんたろう",
+      "party": "自民",
+      "constituency": "東京"
+    },
+    {
+      "name": "東徹",
+      "kana": "あずまとおる",
+      "party": "維新",
+      "constituency": "大阪"
+    },
+    {
+      "name": "有田芳生",
+      "kana": "ありたよしふ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "有村治子",
+      "kana": "ありむらはるこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "井上哲士",
+      "kana": "いのうえさとし",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "井上義行",
+      "kana": "いのうえよしゆき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "井原巧",
+      "kana": "いはらたくみ",
+      "party": "自民",
+      "constituency": "愛媛"
+    },
+    {
+      "name": "伊藤孝江",
+      "kana": "いとうたかえ",
+      "party": "公明",
+      "constituency": "兵庫"
+    },
+    {
+      "name": "伊藤孝恵",
+      "kana": "いとうたかえ",
+      "party": "民進",
+      "constituency": "愛知"
+    },
+    {
+      "name": "伊波洋一",
+      "kana": "いはよういち",
+      "party": "沖縄",
+      "constituency": "沖縄"
+    },
+    {
+      "name": "石井章",
+      "kana": "いしいあきら",
+      "party": "維新",
+      "block": "比例"
+    },
+    {
+      "name": "石井準一",
+      "kana": "いしいじゅんいち",
+      "party": "自民",
+      "constituency": "千葉"
+    },
+    {
+      "name": "石井浩郎",
+      "kana": "いしいひろお",
+      "party": "自民",
+      "constituency": "秋田"
+    },
+    {
+      "name": "石井正弘",
+      "kana": "いしいまさひろ",
+      "party": "自民",
+      "constituency": "岡山"
+    },
+    {
+      "name": "石井みどり",
+      "kana": "いしいみどり",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "石井苗子",
+      "kana": "いしいみつこ",
+      "party": "維新",
+      "block": "比例"
+    },
+    {
+      "name": "石上俊雄",
+      "kana": "いしがみとしお",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "石川博崇",
+      "kana": "いしかわひろたか",
+      "party": "公明",
+      "constituency": "大阪"
+    },
+    {
+      "name": "石田昌宏",
+      "kana": "いしだまさひろ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "石橋通宏",
+      "kana": "いしばしみちひろ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "磯崎仁彦",
+      "kana": "いそざきよしひこ",
+      "party": "自民",
+      "constituency": "香川"
+    },
+    {
+      "name": "礒崎哲史",
+      "kana": "いそざきてつじ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "礒崎陽輔",
+      "kana": "いそざきようすけ",
+      "party": "自民",
+      "constituency": "大分"
+    },
+    {
+      "name": "市田忠義",
+      "kana": "いちだただよし",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "糸数慶子",
+      "kana": "いとかずけいこ",
+      "party": "沖縄",
+      "constituency": "沖縄"
+    },
+    {
+      "name": "猪口邦子",
+      "kana": "いのぐちくにこ",
+      "party": "自民",
+      "constituency": "千葉"
+    },
+    {
+      "name": "今井絵理子",
+      "kana": "いまいえりこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "岩井茂樹",
+      "kana": "いわいしげき",
+      "party": "自民",
+      "constituency": "静岡"
+    },
+    {
+      "name": "岩渕友",
+      "kana": "いわぶちとも",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "宇都隆史",
+      "kana": "うとたかし",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "上野通子",
+      "kana": "うえのみちこ",
+      "party": "自民",
+      "constituency": "栃木"
+    },
+    {
+      "name": "魚住裕一郎",
+      "kana": "うおずみゆういちろう",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "江崎孝",
+      "kana": "えさきたかし",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "江島潔",
+      "kana": "えじまきよし",
+      "party": "自民",
+      "constituency": "山口"
+    },
+    {
+      "name": "衛藤晟一",
+      "kana": "えとうせいいち",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "小川克巳",
+      "kana": "おがわかつみ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "小川勝也",
+      "kana": "おがわかつや",
+      "party": "民進",
+      "constituency": "北海道"
+    },
+    {
+      "name": "小川敏夫",
+      "kana": "おがわとしお",
+      "party": "民進",
+      "constituency": "東京"
+    },
+    {
+      "name": "小野田紀美",
+      "kana": "おのだきみ",
+      "party": "自民",
+      "constituency": "岡山"
+    },
+    {
+      "name": "尾辻秀久",
+      "kana": "おつじひでひさ",
+      "party": "自民",
+      "constituency": "鹿児島"
+    },
+    {
+      "name": "大家敏志",
+      "kana": "おおいえさとし",
+      "party": "自民",
+      "constituency": "福岡"
+    },
+    {
+      "name": "大島九州男",
+      "kana": "おおしまくすお",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "大塚耕平",
+      "kana": "おおつかこうへい",
+      "party": "民進",
+      "constituency": "愛知"
+    },
+    {
+      "name": "大沼みずほ",
+      "kana": "おおぬまみずほ",
+      "party": "自民",
+      "constituency": "山形"
+    },
+    {
+      "name": "大野元裕",
+      "kana": "おおのもとひろ",
+      "party": "民進",
+      "constituency": "埼玉"
+    },
+    {
+      "name": "大野泰正",
+      "kana": "おおのやすただ",
+      "party": "自民",
+      "constituency": "岐阜"
+    },
+    {
+      "name": "太田房江",
+      "kana": "おおたふさえ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "岡田直樹",
+      "kana": "おかだなおき",
+      "party": "自民",
+      "constituency": "石川"
+    },
+    {
+      "name": "岡田広",
+      "kana": "おかだひろし",
+      "party": "自民",
+      "constituency": "茨城"
+    },
+    {
+      "name": "風間直樹",
+      "kana": "かざまなおき",
+      "party": "民進",
+      "constituency": "新潟"
+    },
+    {
+      "name": "片山さつき",
+      "kana": "かたやまさつき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "片山大介",
+      "kana": "かたやまだいすけ",
+      "party": "維新",
+      "constituency": "兵庫"
+    },
+    {
+      "name": "片山虎之助",
+      "kana": "かたやまとらのすけ",
+      "party": "維新",
+      "block": "比例"
+    },
+    {
+      "name": "金子原二郎",
+      "kana": "かねこげんじろう",
+      "party": "自民",
+      "constituency": "長崎"
+    },
+    {
+      "name": "神本美恵子",
+      "kana": "かみもとみえこ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "紙智子",
+      "kana": "かみともこ",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "川合孝典",
+      "kana": "かわいたかのり",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "川田龍平",
+      "kana": "かわだりゅうへい",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "河野義博",
+      "kana": "かわのよしひろ",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "木戸口英司",
+      "kana": "きどぐちえいじ",
+      "party": "希望",
+      "constituency": "岩手"
+    },
+    {
+      "name": "木村義雄",
+      "kana": "きむらよしお",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "吉良よし子",
+      "kana": "きらよしこ",
+      "party": "共産",
+      "constituency": "東京"
+    },
+    {
+      "name": "儀間光男",
+      "kana": "ぎまみつお",
+      "party": "維新",
+      "block": "比例"
+    },
+    {
+      "name": "北村経夫",
+      "kana": "きたむらつねお",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "熊野正士",
+      "kana": "くまのせいし",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "倉林明子",
+      "kana": "くらばやしあきこ",
+      "party": "共産",
+      "constituency": "京都"
+    },
+    {
+      "name": "郡司彰",
+      "kana": "ぐんじあきら",
+      "party": "無所属",
+      "constituency": "茨城"
+    },
+    {
+      "name": "こやり隆史",
+      "kana": "こやりたかし",
+      "party": "自民",
+      "constituency": "滋賀"
+    },
+    {
+      "name": "小池晃",
+      "kana": "こいけあきら",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "小西洋之",
+      "kana": "こにしひろゆき",
+      "party": "民進",
+      "constituency": "千葉"
+    },
+    {
+      "name": "小林正夫",
+      "kana": "こばやしまさお",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "古賀友一郎",
+      "kana": "こがゆういちろう",
+      "party": "自民",
+      "constituency": "長崎"
+    },
+    {
+      "name": "古賀之士",
+      "kana": "こがゆきひと",
+      "party": "民進",
+      "constituency": "福岡"
+    },
+    {
+      "name": "上月良祐",
+      "kana": "こうづきりょうすけ",
+      "party": "自民",
+      "constituency": "茨城"
+    },
+    {
+      "name": "行田邦子",
+      "kana": "こうだくにこ",
+      "party": "無ク",
+      "constituency": "埼玉"
+    },
+    {
+      "name": "鴻池祥肇",
+      "kana": "こうのいけよしただ",
+      "party": "自民",
+      "constituency": "兵庫"
+    },
+    {
+      "name": "佐々木さやか",
+      "kana": "ささきさやか",
+      "party": "公明",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "佐藤啓",
+      "kana": "さとうけい",
+      "party": "自民",
+      "constituency": "奈良"
+    },
+    {
+      "name": "佐藤信秋",
+      "kana": "さとうのぶあき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "佐藤正久",
+      "kana": "さとうまさひさ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "斎藤嘉隆",
+      "kana": "さいとうよしたか",
+      "party": "民進",
+      "constituency": "愛知"
+    },
+    {
+      "name": "酒井庸行",
+      "kana": "さかいやすゆき",
+      "party": "自民",
+      "constituency": "愛知"
+    },
+    {
+      "name": "櫻井充",
+      "kana": "さくらいみつる",
+      "party": "民進",
+      "constituency": "宮城"
+    },
+    {
+      "name": "里見隆治",
+      "kana": "さとみりゅうじ",
+      "party": "公明",
+      "constituency": "愛知"
+    },
+    {
+      "name": "山東昭子",
+      "kana": "さんとうあきこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "清水貴之",
+      "kana": "しみずたかゆき",
+      "party": "維新",
+      "constituency": "兵庫"
+    },
+    {
+      "name": "自見はなこ",
+      "kana": "じみはなこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "芝博一",
+      "kana": "しばひろかず",
+      "party": "民進",
+      "constituency": "三重"
+    },
+    {
+      "name": "島田三郎",
+      "kana": "しまださぶろう",
+      "party": "自民",
+      "constituency": "島根"
+    },
+    {
+      "name": "島村大",
+      "kana": "しまむらだい",
+      "party": "自民",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "進藤金日子",
+      "kana": "しんどうかねひこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "榛葉賀津也",
+      "kana": "しんばかづや",
+      "party": "民進",
+      "constituency": "静岡"
+    },
+    {
+      "name": "末松信介",
+      "kana": "すえまつしんすけ",
+      "party": "自民",
+      "constituency": "兵庫"
+    },
+    {
+      "name": "杉久武",
+      "kana": "すぎひさたけ",
+      "party": "公明",
+      "constituency": "大阪"
+    },
+    {
+      "name": "杉尾秀哉",
+      "kana": "すぎおひでや",
+      "party": "民進",
+      "constituency": "長野"
+    },
+    {
+      "name": "世耕弘成",
+      "kana": "せこうひろしげ",
+      "party": "自民",
+      "constituency": "和歌山"
+    },
+    {
+      "name": "関口昌一",
+      "kana": "せきぐちまさかず",
+      "party": "自民",
+      "constituency": "埼玉"
+    },
+    {
+      "name": "そのだ修光",
+      "kana": "そのだしゅうこう",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "田名部匡代",
+      "kana": "たなぶまさよ",
+      "party": "民進",
+      "constituency": "青森"
+    },
+    {
+      "name": "田村智子",
+      "kana": "たむらともこ",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "伊達忠一",
+      "kana": "だてちゅういち",
+      "party": "無所属",
+      "constituency": "北海道"
+    },
+    {
+      "name": "大門実紀史",
+      "kana": "だいもんみきし",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "高階恵美子",
+      "kana": "たかがいえみこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "高木かおり",
+      "kana": "たかぎかおり",
+      "party": "維新",
+      "constituency": "大阪"
+    },
+    {
+      "name": "高瀬弘美",
+      "kana": "たかせひろみ",
+      "party": "公明",
+      "constituency": "福岡"
+    },
+    {
+      "name": "高野光二郎",
+      "kana": "たかのこうじろう",
+      "party": "自民",
+      "constituency": "高知"
+    },
+    {
+      "name": "高橋克法",
+      "kana": "たかはしかつのり",
+      "party": "自民",
+      "constituency": "栃木"
+    },
+    {
+      "name": "滝沢求",
+      "kana": "たきさわもとめ",
+      "party": "自民",
+      "constituency": "青森"
+    },
+    {
+      "name": "滝波宏文",
+      "kana": "たきなみひろふみ",
+      "party": "自民",
+      "constituency": "福井"
+    },
+    {
+      "name": "竹谷とし子",
+      "kana": "たけやとしこ",
+      "party": "公明",
+      "constituency": "東京"
+    },
+    {
+      "name": "武田良介",
+      "kana": "たけだりょうすけ",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "武見敬三",
+      "kana": "たけみけいぞう",
+      "party": "自民",
+      "constituency": "東京"
+    },
+    {
+      "name": "辰巳孝太郎",
+      "kana": "たつみこうたろう",
+      "party": "共産",
+      "constituency": "大阪"
+    },
+    {
+      "name": "谷合正明",
+      "kana": "たにあいまさあき",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "柘植芳文",
+      "kana": "つげよしふみ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "塚田一郎",
+      "kana": "つかだいちろう",
+      "party": "自民",
+      "constituency": "新潟"
+    },
+    {
+      "name": "鶴保庸介",
+      "kana": "つるほようすけ",
+      "party": "自民",
+      "constituency": "和歌山"
+    },
+    {
+      "name": "堂故茂",
+      "kana": "どうこしげる",
+      "party": "自民",
+      "constituency": "富山"
+    },
+    {
+      "name": "徳茂雅之",
+      "kana": "とくしげまさゆき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "徳永エリ",
+      "kana": "とくながえり",
+      "party": "民進",
+      "constituency": "北海道"
+    },
+    {
+      "name": "豊田俊郎",
+      "kana": "とよだとしろう",
+      "party": "自民",
+      "constituency": "千葉"
+    },
+    {
+      "name": "那谷屋正義",
+      "kana": "なたにやまさよし",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "中泉松司",
+      "kana": "なかいずみまつじ",
+      "party": "自民",
+      "constituency": "秋田"
+    },
+    {
+      "name": "中川雅治",
+      "kana": "なかがわまさはる",
+      "party": "自民",
+      "constituency": "東京"
+    },
+    {
+      "name": "中曽根弘文",
+      "kana": "なかそねひろふみ",
+      "party": "自民",
+      "constituency": "群馬"
+    },
+    {
+      "name": "中西健治",
+      "kana": "なかにしけんじ",
+      "party": "自民",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "中西哲",
+      "kana": "なかにしさとし",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "中西祐介",
+      "kana": "なかにしゆうすけ",
+      "party": "自民",
+      "constituency": "徳島・高知"
+    },
+    {
+      "name": "中野正志",
+      "kana": "なかのまさし",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "中山恭子",
+      "kana": "なかやまきょうこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "長浜博行",
+      "kana": "ながはまひろゆき",
+      "party": "民進",
+      "constituency": "千葉"
+    },
+    {
+      "name": "長峯誠",
+      "kana": "ながみねまこと",
+      "party": "自民",
+      "constituency": "宮崎"
+    },
+    {
+      "name": "難波奨二",
+      "kana": "なんばしょうじ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "二之湯智",
+      "kana": "にのゆさとし",
+      "party": "自民",
+      "constituency": "京都"
+    },
+    {
+      "name": "二之湯武史",
+      "kana": "にのゆたけし",
+      "party": "自民",
+      "constituency": "滋賀"
+    },
+    {
+      "name": "仁比聡平",
+      "kana": "にひそうへい",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "新妻秀規",
+      "kana": "にいづまひでき",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "西田昌司",
+      "kana": "にしだしょうじ",
+      "party": "自民",
+      "constituency": "京都"
+    },
+    {
+      "name": "西田実仁",
+      "kana": "にしだまこと",
+      "party": "公明",
+      "constituency": "埼玉"
+    },
+    {
+      "name": "野上浩太郎",
+      "kana": "のがみこうたろう",
+      "party": "自民",
+      "constituency": "富山"
+    },
+    {
+      "name": "野田国義",
+      "kana": "のだくによし",
+      "party": "民進",
+      "constituency": "福岡"
+    },
+    {
+      "name": "野村哲郎",
+      "kana": "のむらてつろう",
+      "party": "自民",
+      "constituency": "鹿児島"
+    },
+    {
+      "name": "羽田雄一郎",
+      "kana": "はたゆういちろう",
+      "party": "民進",
+      "constituency": "長野"
+    },
+    {
+      "name": "羽生田俊",
+      "kana": "はにゅうだたかし",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "長谷川岳",
+      "kana": "はせがわがく",
+      "party": "自民",
+      "constituency": "北海道"
+    },
+    {
+      "name": "馬場成志",
+      "kana": "ばばせいし",
+      "party": "自民",
+      "constituency": "熊本"
+    },
+    {
+      "name": "白眞勲",
+      "kana": "はくしんくん",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "橋本聖子",
+      "kana": "はしもとせいこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "鉢呂吉雄",
+      "kana": "はちろよしお",
+      "party": "民進",
+      "constituency": "北海道"
+    },
+    {
+      "name": "浜口誠",
+      "kana": "はまぐちまこと",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "浜田昌良",
+      "kana": "はまだまさよし",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "浜野喜史",
+      "kana": "はまのよしふみ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "林芳正",
+      "kana": "はやしよしまさ",
+      "party": "自民",
+      "constituency": "山口"
+    },
+    {
+      "name": "平木大作",
+      "kana": "ひらきだいさく",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "平野達男",
+      "kana": "ひらのたつお",
+      "party": "自民",
+      "constituency": "岩手"
+    },
+    {
+      "name": "平山佐知子",
+      "kana": "ひらやまさちこ",
+      "party": "民進",
+      "constituency": "静岡"
+    },
+    {
+      "name": "福岡資麿",
+      "kana": "ふくおかたかまろ",
+      "party": "自民",
+      "constituency": "佐賀"
+    },
+    {
+      "name": "福島みずほ",
+      "kana": "ふくしまみずほ",
+      "party": "希望",
+      "block": "比例"
+    },
+    {
+      "name": "福山哲郎",
+      "kana": "ふくやまてつろう",
+      "party": "民進",
+      "constituency": "京都"
+    },
+    {
+      "name": "藤井基之",
+      "kana": "ふじいもとゆき",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "藤川政人",
+      "kana": "ふじかわまさひと",
+      "party": "自民",
+      "constituency": "愛知"
+    },
+    {
+      "name": "藤木眞也",
+      "kana": "ふじきしんや",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "藤末健三",
+      "kana": "ふじすえけんぞう",
+      "party": "無所属",
+      "block": "比例"
+    },
+    {
+      "name": "藤田幸久",
+      "kana": "ふじたゆきひさ",
+      "party": "民進",
+      "constituency": "茨城"
+    },
+    {
+      "name": "藤巻健史",
+      "kana": "ふじまきたけし",
+      "party": "維新",
+      "block": "比例"
+    },
+    {
+      "name": "舟山康江",
+      "kana": "ふなやまやすえ",
+      "party": "民進",
+      "constituency": "山形"
+    },
+    {
+      "name": "古川俊治",
+      "kana": "ふるかわとしはる",
+      "party": "自民",
+      "constituency": "埼玉"
+    },
+    {
+      "name": "堀井巌",
+      "kana": "ほりいいわお",
+      "party": "自民",
+      "constituency": "奈良"
+    },
+    {
+      "name": "真山勇一",
+      "kana": "まやまゆういち",
+      "party": "民進",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "舞立昇治",
+      "kana": "まいたちしょうじ",
+      "party": "自民",
+      "constituency": "鳥取"
+    },
+    {
+      "name": "牧野たかお",
+      "kana": "まきのたかお",
+      "party": "自民",
+      "constituency": "静岡"
+    },
+    {
+      "name": "牧山ひろえ",
+      "kana": "まきやまひろえ",
+      "party": "民進",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "増子輝彦",
+      "kana": "ましこてるひこ",
+      "party": "民進",
+      "constituency": "福島"
+    },
+    {
+      "name": "又市征治",
+      "kana": "またいちせいじ",
+      "party": "希望",
+      "block": "比例"
+    },
+    {
+      "name": "松川るい",
+      "kana": "まつかわるい",
+      "party": "自民",
+      "constituency": "大阪"
+    },
+    {
+      "name": "松沢成文",
+      "kana": "まつざわしげふみ",
+      "party": "無ク",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "松下新平",
+      "kana": "まつしたしんぺい",
+      "party": "自民",
+      "constituency": "宮崎"
+    },
+    {
+      "name": "松村祥史",
+      "kana": "まつむらよしふみ",
+      "party": "自民",
+      "constituency": "熊本"
+    },
+    {
+      "name": "松山政司",
+      "kana": "まつやままさじ",
+      "party": "自民",
+      "constituency": "福岡"
+    },
+    {
+      "name": "丸川珠代",
+      "kana": "まるかわたまよ",
+      "party": "自民",
+      "constituency": "東京"
+    },
+    {
+      "name": "丸山和也",
+      "kana": "まるやまかずや",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "三浦信祐",
+      "kana": "みうらのぶひろ",
+      "party": "公明",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "三木亨",
+      "kana": "みきとおる",
+      "party": "自民",
+      "constituency": "徳島"
+    },
+    {
+      "name": "三原じゅん子",
+      "kana": "みはらじゅんこ",
+      "party": "自民",
+      "constituency": "神奈川"
+    },
+    {
+      "name": "三宅伸吾",
+      "kana": "みやけしんご",
+      "party": "自民",
+      "constituency": "香川"
+    },
+    {
+      "name": "水落敏栄",
+      "kana": "みずおちとしえい",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "溝手顕正",
+      "kana": "みぞてけんせい",
+      "party": "自民",
+      "constituency": "広島"
+    },
+    {
+      "name": "宮崎勝",
+      "kana": "みやざきまさる",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "宮沢由佳",
+      "kana": "みやざわゆか",
+      "party": "民進",
+      "constituency": "山梨"
+    },
+    {
+      "name": "宮沢洋一",
+      "kana": "みやざわよういち",
+      "party": "自民",
+      "constituency": "広島"
+    },
+    {
+      "name": "宮島喜文",
+      "kana": "みやじまよしふみ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "宮本周司",
+      "kana": "みやもとしゅうじ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "室井邦彦",
+      "kana": "むろいくにひこ",
+      "party": "維新",
+      "block": "比例"
+    },
+    {
+      "name": "元榮太一郎",
+      "kana": "もとえたいちろう",
+      "party": "自民",
+      "constituency": "千葉"
+    },
+    {
+      "name": "森まさこ",
+      "kana": "もりまさこ",
+      "party": "自民",
+      "constituency": "福島"
+    },
+    {
+      "name": "森ゆうこ",
+      "kana": "もりゆうこ",
+      "party": "希望",
+      "constituency": "新潟"
+    },
+    {
+      "name": "森本真治",
+      "kana": "もりもとしんじ",
+      "party": "民進",
+      "constituency": "広島"
+    },
+    {
+      "name": "森屋宏",
+      "kana": "もりやひろし",
+      "party": "自民",
+      "constituency": "山梨"
+    },
+    {
+      "name": "矢倉克夫",
+      "kana": "やくらかつお",
+      "party": "公明",
+      "constituency": "埼玉"
+    },
+    {
+      "name": "矢田わか子",
+      "kana": "やたわかこ",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "薬師寺みちよ",
+      "kana": "やくしじみちよ",
+      "party": "無ク",
+      "constituency": "愛知"
+    },
+    {
+      "name": "柳田稔",
+      "kana": "やなぎだみのる",
+      "party": "民進",
+      "constituency": "広島"
+    },
+    {
+      "name": "柳本卓治",
+      "kana": "やなぎもとたくじ",
+      "party": "自民",
+      "constituency": "大阪"
+    },
+    {
+      "name": "山口和之",
+      "kana": "やまぐちかずゆき",
+      "party": "無所属",
+      "block": "比例"
+    },
+    {
+      "name": "山口那津男",
+      "kana": "やまぐちなつお",
+      "party": "公明",
+      "constituency": "東京"
+    },
+    {
+      "name": "山崎正昭",
+      "kana": "やまざきまさあき",
+      "party": "自民",
+      "constituency": "福井"
+    },
+    {
+      "name": "山下雄平",
+      "kana": "やましたゆうへい",
+      "party": "自民",
+      "constituency": "佐賀"
+    },
+    {
+      "name": "山下芳生",
+      "kana": "やましたよしき",
+      "party": "共産",
+      "block": "比例"
+    },
+    {
+      "name": "山添拓",
+      "kana": "やまぞえたく",
+      "party": "共産",
+      "constituency": "東京"
+    },
+    {
+      "name": "山田修路",
+      "kana": "やまだしゅうじ",
+      "party": "自民",
+      "constituency": "石川"
+    },
+    {
+      "name": "山田俊男",
+      "kana": "やまだとしお",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "山田宏",
+      "kana": "やまだひろし",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "山谷えり子",
+      "kana": "やまたにえりこ",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "山本一太",
+      "kana": "やまもといちた",
+      "party": "自民",
+      "constituency": "群馬"
+    },
+    {
+      "name": "山本香苗",
+      "kana": "やまもとかなえ",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "山本順三",
+      "kana": "やまもとじゅんぞう",
+      "party": "自民",
+      "constituency": "愛媛"
+    },
+    {
+      "name": "山本太郎",
+      "kana": "やまもとたろう",
+      "party": "希望",
+      "constituency": "東京"
+    },
+    {
+      "name": "山本博司",
+      "kana": "やまもとひろし",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "横山信一",
+      "kana": "よこやましんいち",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "吉川沙織",
+      "kana": "よしかわさおり",
+      "party": "民進",
+      "block": "比例"
+    },
+    {
+      "name": "吉川ゆうみ",
+      "kana": "よしかわゆうみ",
+      "party": "自民",
+      "constituency": "三重"
+    },
+    {
+      "name": "吉田博美",
+      "kana": "よしだひろみ",
+      "party": "自民",
+      "constituency": "長野"
+    },
+    {
+      "name": "蓮舫",
+      "kana": "れんほう",
+      "party": "民進",
+      "constituency": "東京"
+    },
+    {
+      "name": "和田政宗",
+      "kana": "わだまさむね",
+      "party": "自民",
+      "constituency": "宮城"
+    },
+    {
+      "name": "若松謙維",
+      "kana": "わかまつかねしげ",
+      "party": "公明",
+      "block": "比例"
+    },
+    {
+      "name": "渡辺猛之",
+      "kana": "わたなべたけゆき",
+      "party": "自民",
+      "constituency": "岐阜"
+    },
+    {
+      "name": "渡辺美知太郎",
+      "kana": "わたなべみちたろう",
+      "party": "自民",
+      "block": "比例"
+    },
+    {
+      "name": "渡辺喜美",
+      "kana": "わたなべよしみ",
+      "party": "無所属",
+      "block": "比例"
+    },
+    {
+      "name": "渡邉美樹",
+      "kana": "わたなべみき",
+      "party": "自民",
+      "block": "比例"
+    }
+  ]
+}

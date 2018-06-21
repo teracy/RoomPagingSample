@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
+    defaultConfig {
+        applicationId "me.kwsk.kokkaindlviewer"
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "API_ROOT", "\"http://kokkai.ndl.go.jp/\""
+        buildConfigField "String", "API_PATH", "\"api/1.0\""
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+    kapt deps.lifecycle.compiler
+    kapt deps.databinding_compiler
+    kapt deps.dagger.compiler
+    kapt deps.dagger.android_support_compiler
+    kapt deps.room.compiler
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation deps.kotlin.stdlib
+    implementation deps.support.app_compat
+    implementation deps.support.design
+    implementation deps.constraint_layout
+    implementation deps.lifecycle.reactivestreams
+    implementation deps.lifecycle.extensions
+    implementation deps.dagger.runtime
+    implementation(deps.dagger.android) {
+        exclude group: 'com.google.code.findbugs', module: 'jsr305'
+    }
+    implementation(deps.dagger.android_support) {
+        exclude group: 'com.google.code.findbugs', module: 'jsr305'
+    }
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.adapter_rxjava2
+    implementation deps.retrofit.converter_gson
+    implementation(deps.retrofit.converter_simplexml) {
+        exclude group: 'xpp3', module: 'xpp3'
+        exclude group: 'stax', module: 'stax-api'
+        exclude group: 'stax', module: 'stax'
+    }
+    implementation deps.okhttp.runtime
+    implementation deps.okhttp.logging_interceptor
+    implementation deps.rxjava
+    implementation deps.rxandroid
+    implementation deps.rxkotlin
+    implementation deps.timber
+    implementation deps.threeten_abp
+    implementation deps.paging
+    implementation deps.room.runtime
+    implementation deps.room.rxjava2
+    implementation deps.support.recyclerview
+
+    androidTestImplementation deps.support_test_runner
+    androidTestImplementation deps.espresso
+    androidTestImplementation(deps.threeten_bp) {
+        exclude group: 'com.jakewharton.threetenabp', module: 'threetenabp'
+    }
+    androidTestImplementation(deps.room.testing) {
+        exclude group: 'com.google.code.gson', module: 'gson'
+    }
+
+    testImplementation deps.junit
+    testImplementation deps.robolectric
+    testImplementation deps.mockito_inline
+    testImplementation deps.mockito_kotlin
+}
