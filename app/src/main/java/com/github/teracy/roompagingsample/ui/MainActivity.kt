@@ -9,6 +9,7 @@ import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import com.github.teracy.roompagingsample.R
 import com.github.teracy.roompagingsample.data.paging.DietMember
 import com.github.teracy.roompagingsample.databinding.ActivityMainBinding
@@ -64,6 +65,9 @@ class MainActivity : DaggerAppCompatActivity() {
     private fun DietMemberAdapter.fetchDietMembers(name: String? = null) {
         Timber.d("text:%s", name)
         viewModel.fetchDietMembers(this@MainActivity, name)
+        viewModel.loading.observe(this@MainActivity, Observer {
+            binding.loading.visibility = if (it != false) View.VISIBLE else View.GONE
+        })
         viewModel.dietMembers.observe(this@MainActivity, Observer {
             Timber.d("dietMembers:%d", it?.size)
             submitList(it)

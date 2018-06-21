@@ -1,4 +1,4 @@
-package com.github.teracy.roompagingsample.data.repository
+package com.github.teracy.roompagingsample.data.asset
 
 /**
  * 議員レコード
