@@ -46,7 +46,7 @@ class MainActivity : DaggerAppCompatActivity() {
         binding.recycler.layoutManager = LinearLayoutManager(this)
         binding.recycler.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
         binding.recycler.adapter = adapter
-
+        // まずはしぼりこみ無しで呼んでおく
         adapter.fetchDietMembers()
         // endreigon
 
@@ -74,6 +74,7 @@ class MainActivity : DaggerAppCompatActivity() {
 
     private fun DietMemberAdapter.fetchDietMembers(name: String? = null) {
         Timber.d("text:%s", name)
+        // 入力されたしぼりこみ条件で呼ぶ
         viewModel.fetchDietMembers(this@MainActivity, name)
         viewModel.loading.observe(this@MainActivity, Observer {
             binding.loading.visibility = if (it != false) View.VISIBLE else View.GONE

@@ -22,17 +22,22 @@ class SpeechViewModel @Inject constructor(
         private val schedulerProvider: SchedulerProvider,
         private val compositeDisposable: CompositeDisposable) : AndroidViewModel(application) {
 
-    var speeches: LiveData<PagedList<Speech>> = MutableLiveData()
+    // ネットワーク状態
     var networkState: LiveData<NetworkState> = MutableLiveData()
+    // 全件数
     var numberOfRecords: MutableLiveData<Int> = MutableLiveData()
+    // 発言リスト
+    var speeches: LiveData<PagedList<Speech>> = MutableLiveData()
+    // メッセージ（エラーor件数）
     var message: MutableLiveData<String> = MutableLiveData()
+    // ローディング表示
     var loading: MutableLiveData<Boolean> = MutableLiveData()
 
     override fun onCleared() {
         super.onCleared()
         compositeDisposable.clear()
     }
-    
+
     fun fetchSpeech(lifecycleOwner: LifecycleOwner, name: String) {
         val factory = SpeechPageKeyedDataSourceFactory(repository, schedulerProvider, compositeDisposable, name)
         val config = PagedList.Config.Builder()

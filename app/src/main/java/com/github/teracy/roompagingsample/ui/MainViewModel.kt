@@ -25,7 +25,9 @@ class MainViewModel @Inject constructor(
         private val gson: Gson,
         private val database: AppDatabase) : AndroidViewModel(application) {
 
+    // 議員リスト
     var dietMembers: LiveData<PagedList<DietMember>> = MutableLiveData()
+    // ローディング表示
     var loading: MutableLiveData<Boolean> = MutableLiveData()
 
     fun initialize() {

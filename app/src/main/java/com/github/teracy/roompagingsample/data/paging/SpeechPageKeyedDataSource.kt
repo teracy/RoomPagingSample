@@ -16,12 +16,17 @@ class SpeechPageKeyedDataSource(
         private val schedulerProvider: SchedulerProvider,
         private val compositeDisposable: CompositeDisposable,
         private val name: String) : PageKeyedDataSource<Int, Speech>() {
+    // ネットワーク状態
     val networkState: MutableLiveData<NetworkState> = MutableLiveData()
+    // 全件数
     val numberOfRecords: MutableLiveData<Int> = MutableLiveData()
+    // メッセージ（エラーor件数）
     val message: MutableLiveData<String> = MutableLiveData()
+    // ローディング表示
     val loading: MutableLiveData<Boolean> = MutableLiveData()
 
     override fun loadInitial(params: LoadInitialParams<Int>, callback: LoadInitialCallback<Int, Speech>) {
+        // 最初のページ取得
         message.postValue("読み込み中です")
         callApi(1, params.requestedLoadSize) { speeches, next ->
             callback.onResult(speeches, null, next)
@@ -29,13 +34,14 @@ class SpeechPageKeyedDataSource(
     }
 
     override fun loadAfter(params: LoadParams<Int>, callback: LoadCallback<Int, Speech>) {
+        // 次のページ取得
         callApi(params.key, params.requestedLoadSize) { speeches, next ->
             callback.onResult(speeches, next)
         }
     }
 
     override fun loadBefore(params: LoadParams<Int>, callback: LoadCallback<Int, Speech>) {
-        // 利用しない
+        // 前のページ取得：利用しない
     }
 
     private fun callApi(page: Int, perPage: Int, callback: (speechRecords: List<Speech>, next: Int?) -> Unit) {
@@ -74,6 +80,9 @@ class SpeechPageKeyedDataSource(
                 .addTo(compositeDisposable)
     }
 
+    /**
+     * APIの発言応答→表示用発言情報に変換
+     */
     private fun SpeechRecord.convert(): Speech = Speech(
             session = "第${session}回国会",
             nameOfHouse = nameOfHouse,
