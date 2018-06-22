@@ -28,6 +28,11 @@ class SpeechViewModel @Inject constructor(
     var message: MutableLiveData<String> = MutableLiveData()
     var loading: MutableLiveData<Boolean> = MutableLiveData()
 
+    override fun onCleared() {
+        super.onCleared()
+        compositeDisposable.clear()
+    }
+    
     fun fetchSpeech(lifecycleOwner: LifecycleOwner, name: String) {
         val factory = SpeechPageKeyedDataSourceFactory(repository, schedulerProvider, compositeDisposable, name)
         val config = PagedList.Config.Builder()
