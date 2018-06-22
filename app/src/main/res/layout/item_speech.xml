@@ -44,8 +44,10 @@
             android:id="@+id/tv_meeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:ellipsize="end"
+            android:maxWidth="240dp"
             android:text="@{item.nameOfMeeting}"
-            app:layout_constraintBottom_toBottomOf="@id/tv_house"
             app:layout_constraintStart_toEndOf="@id/tv_house"
             app:layout_constraintTop_toTopOf="@id/tv_house" />
 
@@ -55,7 +57,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="@{item.issue}"
-            app:layout_constraintBottom_toBottomOf="@id/tv_meeting"
             app:layout_constraintStart_toEndOf="@id/tv_meeting"
             app:layout_constraintTop_toTopOf="@id/tv_meeting" />
 
@@ -70,6 +71,6 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_house" />
+            app:layout_constraintTop_toBottomOf="@id/tv_meeting" />
     </android.support.constraint.ConstraintLayout>
 </layout>
