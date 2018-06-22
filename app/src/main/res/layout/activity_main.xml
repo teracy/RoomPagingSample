@@ -28,10 +28,10 @@
                     android:layout_height="wrap_content"
                     android:background="@android:color/transparent"
                     android:drawableStart="@drawable/ic_search_black_24dp"
-                    android:hint="現役議員検索"
+                    android:hint="議員名しぼりこみ"
                     android:imeOptions="actionSearch"
                     android:inputType="text"
-                    android:textColorHint="@color/colorAccent"
+                    android:textColorHint="@color/colorTitleHint"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">

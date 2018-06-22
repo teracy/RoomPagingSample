@@ -15,47 +15,49 @@
         android:padding="8dp">
 
         <TextView
-            android:id="@+id/tv_session"
-            android:layout_width="120dp"
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{item.session}"
+            android:text="@{item.date}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_date"
-            android:layout_width="120dp"
+            android:id="@+id/tv_session"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{item.date}"
-            app:layout_constraintBottom_toBottomOf="@id/tv_session"
-            app:layout_constraintStart_toEndOf="@id/tv_session"
-            app:layout_constraintTop_toTopOf="@id/tv_session" />
+            android:layout_marginStart="4dp"
+            android:text="@{item.session}"
+            app:layout_constraintBottom_toBottomOf="@id/tv_date"
+            app:layout_constraintStart_toEndOf="@id/tv_date"
+            app:layout_constraintTop_toTopOf="@id/tv_date" />
 
         <TextView
             android:id="@+id/tv_house"
-            android:layout_width="80dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{item.nameOfHouse}"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_session" />
+            app:layout_constraintTop_toBottomOf="@id/tv_date" />
 
         <TextView
-            android:id="@+id/tv_issue"
-            android:layout_width="40dp"
+            android:id="@+id/tv_meeting"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{item.issue}"
+            android:text="@{item.nameOfMeeting}"
             app:layout_constraintBottom_toBottomOf="@id/tv_house"
             app:layout_constraintStart_toEndOf="@id/tv_house"
             app:layout_constraintTop_toTopOf="@id/tv_house" />
 
         <TextView
-            android:id="@+id/tv_speaker"
-            android:layout_width="120dp"
+            android:id="@+id/tv_issue"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{item.speaker}"
-            app:layout_constraintBottom_toBottomOf="@id/tv_house"
-            app:layout_constraintStart_toEndOf="@id/tv_issue"
-            app:layout_constraintTop_toTopOf="@id/tv_house" />
+            android:layout_marginStart="4dp"
+            android:text="@{item.issue}"
+            app:layout_constraintBottom_toBottomOf="@id/tv_meeting"
+            app:layout_constraintStart_toEndOf="@id/tv_meeting"
+            app:layout_constraintTop_toTopOf="@id/tv_meeting" />
 
         <TextView
             android:id="@+id/tv_summary"

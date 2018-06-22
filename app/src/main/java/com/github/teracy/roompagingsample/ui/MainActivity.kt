@@ -61,9 +61,14 @@ class MainActivity : DaggerAppCompatActivity() {
             }
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                adapter.fetchDietMembers(s?.toString()?.trim())
+                val text = s?.toString()?.trim() ?: ""
+                adapter.fetchDietMembers(text)
+                binding.ibClear.visibility = if (text.isNotBlank() && text.isNotEmpty()) View.VISIBLE else View.GONE
             }
         })
+        binding.ibClear.setOnClickListener {
+            binding.etSearch.setText("")
+        }
         // endregion
     }
 

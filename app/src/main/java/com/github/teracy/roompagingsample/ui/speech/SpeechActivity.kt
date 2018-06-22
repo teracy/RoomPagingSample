@@ -37,7 +37,7 @@ class SpeechActivity : DaggerAppCompatActivity() {
         }
 
         val name = intent.extras.getString(ARG_NAME_OF_DIET_MEMBER)
-        binding.nameOfDietMember = name
+        setTitle("${name}議員の発言一覧")
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(SpeechViewModel::class.java)
 
         // region 発言一覧

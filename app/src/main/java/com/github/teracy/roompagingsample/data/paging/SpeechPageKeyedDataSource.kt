@@ -22,6 +22,7 @@ class SpeechPageKeyedDataSource(
     val loading: MutableLiveData<Boolean> = MutableLiveData()
 
     override fun loadInitial(params: LoadInitialParams<Int>, callback: LoadInitialCallback<Int, Speech>) {
+        message.postValue("読み込み中です")
         callApi(1, params.requestedLoadSize) { speeches, next ->
             callback.onResult(speeches, null, next)
         }
