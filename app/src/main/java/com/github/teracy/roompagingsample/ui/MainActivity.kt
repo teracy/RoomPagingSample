@@ -31,7 +31,7 @@ class MainActivity : DaggerAppCompatActivity() {
         setSupportActionBar(binding.toolbar)
 
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(MainViewModel::class.java)
-        viewModel.init()
+        viewModel.initialize()
 
         // region 議員一覧
         val adapter = DietMemberAdapter(application, object : OnDietMemberClickListener {

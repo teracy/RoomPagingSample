@@ -8,13 +8,13 @@ import android.arch.lifecycle.MutableLiveData
 import android.arch.paging.LivePagedListBuilder
 import android.arch.paging.PagedList
 import com.github.teracy.roompagingsample.App
+import com.github.teracy.roompagingsample.data.asset.MemberData
 import com.github.teracy.roompagingsample.data.db.AppDatabase
 import com.github.teracy.roompagingsample.data.db.entity.DietMemberEntity
 import com.github.teracy.roompagingsample.data.paging.COUNCILORS
 import com.github.teracy.roompagingsample.data.paging.DietMember
 import com.github.teracy.roompagingsample.data.paging.DietMemberPageKeyedDataSourceFactory
 import com.github.teracy.roompagingsample.data.paging.REPRESENTATIVES
-import com.github.teracy.roompagingsample.data.asset.MemberData
 import com.github.teracy.roompagingsample.util.ioThread
 import com.google.gson.Gson
 import java.io.BufferedReader
@@ -28,7 +28,7 @@ class MainViewModel @Inject constructor(
     var dietMembers: LiveData<PagedList<DietMember>> = MutableLiveData()
     var loading: MutableLiveData<Boolean> = MutableLiveData()
 
-    fun init() {
+    fun initialize() {
         ioThread {
             if (database.dietMemberDao().countMember() == 0) {
                 // NOTE: サンプルなので更新チェックは省略
